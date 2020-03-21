@@ -1,0 +1,33 @@
+
+nice julia KL.jl Ricker_single n70_K2_SigXfull_VSfixed_gaminitall_snr5_1121191 &> logs/KL_Ricker_single_n70_K2_SigXfull_VSfixed_gaminitall_snr5_1121191.txt &
+nice julia KL.jl Ricker_single n70_K2_SigXfull_VSfixed_gaminitall_snr5_1121192 &> logs/KL_Ricker_single_n70_K2_SigXfull_VSfixed_gaminitall_snr5_1121192.txt &
+nice julia KL.jl Ricker_single n70_K2_SigXfull_VSfixed_gaminitall_snr5_1121193 &> logs/KL_Ricker_single_n70_K2_SigXfull_VSfixed_gaminitall_snr5_1121193.txt &
+
+nice julia KL.jl Ricker_single n70_K5_SigXdiag_VSglobal_gaminitall_snr5_1121191 &> logs/KL_Ricker_single_n70_K5_SigXdiag_VSglobal_gaminitall_snr5_1121191.txt &
+nice julia KL.jl Ricker_single n70_K5_SigXdiag_VSglobal_gaminitall_snr5_1121192 &> logs/KL_Ricker_single_n70_K5_SigXdiag_VSglobal_gaminitall_snr5_1121192.txt &
+nice julia KL.jl Ricker_single n70_K5_SigXdiag_VSglobal_gaminitnone_snr5_1121193 &> logs/KL_Ricker_single_n70_K5_SigXdiag_VSglobal_gaminitnone_snr5_1121193.txt &
+nice julia KL.jl Ricker_single n70_K5_SigXdiag_VSglobal_gaminitnone_snr5_1121194 &> logs/KL_Ricker_single_n70_K5_SigXdiag_VSglobal_gaminitnone_snr5_1121194.txt &
+
+nice julia KL.jl Ricker_single n70_K5_SigXdiag_VSlocal_gaminitall_snr5_1121191 &> logs/KL_Ricker_single_n70_K5_SigXdiag_VSlocal_gaminitall_snr5_1121191.txt &
+nice julia KL.jl Ricker_single n70_K5_SigXdiag_VSlocal_gaminitall_snr5_1121192 &> logs/KL_Ricker_single_n70_K5_SigXdiag_VSlocal_gaminitall_snr5_1121192.txt &
+nice julia KL.jl Ricker_single n70_K5_SigXdiag_VSlocal_gaminitnone_snr5_1121193 &> logs/KL_Ricker_single_n70_K5_SigXdiag_VSlocal_gaminitnone_snr5_1121193.txt &
+nice julia KL.jl Ricker_single n70_K5_SigXdiag_VSlocal_gaminitnone_snr5_1121194 &> logs/KL_Ricker_single_n70_K5_SigXdiag_VSlocal_gaminitnone_snr5_1121194.txt &
+
+
+# nice julia KL.jl Ricker_single n300_K2_SigXfull_VSfixed_gaminitall_snr5_1121191 &> logs/KL_Ricker_single_n300_K2_SigXfull_VSfixed_gaminitall_snr5_1121191.txt &
+# nice julia KL.jl Ricker_single n300_K2_SigXfull_VSfixed_gaminitall_snr5_1121192 &> logs/KL_Ricker_single_n300_K2_SigXfull_VSfixed_gaminitall_snr5_1121192.txt &
+# nice julia KL.jl Ricker_single n300_K2_SigXfull_VSfixed_gaminitall_snr5_1121193 &> logs/KL_Ricker_single_n300_K2_SigXfull_VSfixed_gaminitall_snr5_1121193.txt &
+
+# nice julia KL.jl Ricker_single n300_K5_SigXdiag_VSglobal_gaminitall_snr5_1121191 &> logs/KL_Ricker_single_n300_K5_SigXdiag_VSglobal_gaminitall_snr5_1121191.txt &
+# nice julia KL.jl Ricker_single n300_K5_SigXdiag_VSglobal_gaminitall_snr5_1121192 &> logs/KL_Ricker_single_n300_K5_SigXdiag_VSglobal_gaminitall_snr5_1121192.txt &
+# nice julia KL.jl Ricker_single n300_K5_SigXdiag_VSglobal_gaminitnone_snr5_1121193 &> logs/KL_Ricker_single_n300_K5_SigXdiag_VSglobal_gaminitnone_snr5_1121193.txt &
+# nice julia KL.jl Ricker_single n300_K5_SigXdiag_VSglobal_gaminitnone_snr5_1121194 &> logs/KL_Ricker_single_n300_K5_SigXdiag_VSglobal_gaminitnone_snr5_1121194.txt &
+
+# nice julia KL.jl Ricker_single n300_K5_SigXdiag_VSlocal_gaminitall_snr5_1121191 &> logs/KL_Ricker_single_n300_K5_SigXdiag_VSlocal_gaminitall_snr5_1121191.txt &
+# nice julia KL.jl Ricker_single n300_K5_SigXdiag_VSlocal_gaminitall_snr5_1121192 &> logs/KL_Ricker_single_n300_K5_SigXdiag_VSlocal_gaminitall_snr5_1121192.txt &
+# nice julia KL.jl Ricker_single n300_K5_SigXdiag_VSlocal_gaminitnone_snr5_1121193 &> logs/KL_Ricker_single_n300_K5_SigXdiag_VSlocal_gaminitnone_snr5_1121193.txt &
+# nice julia KL.jl Ricker_single n300_K5_SigXdiag_VSlocal_gaminitnone_snr5_1121194 &> logs/KL_Ricker_single_n300_K5_SigXdiag_VSlocal_gaminitnone_snr5_1121194.txt &
+
+# 11 jobs
+
+wait
