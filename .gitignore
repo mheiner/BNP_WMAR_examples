@@ -3,4 +3,5 @@
 *.pdf
 *.eps
 *.png
+.Rapp.history
 .DS_store
