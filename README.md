@@ -7,7 +7,7 @@ This folder contains code to fit the models and perform simulation studies as de
 Before running the .jl scripts, it is necessary to install the packages that appear after all instances of `using` in the .jl scripts. To do this, open the Julia REPL and enter package mode by pressing `]`. In package mode, enter `add` followed by each package name, separated by spaces. The primary package is unregistered and can be installed with
 
 ```julia
-pkg> add "https://github.com/mheiner/BNP_WMReg_Joint.jl"
+pkg> add https://github.com/mheiner/BNP_WMReg_Joint.git
 ```
 
 Post processing is run with R scripts, which require the coda R package.
@@ -18,7 +18,7 @@ The data folder contains the pink salmon data set (in the public domain, see <ht
 
 ## Models
 
-The fastest way to fit models illustrated in the article is to source the shell scripts `runjobs_Ricker.sh` and `runjobs_pinkSalmon.sh`, which call `runMCMC.jl`. Alternatively, `runMCMC.jl` can ce run interactively in Julia (in which case, the user would manually assign the global variables normally passed by `ARGS`). Results in the article are based on longer MCMC runs than the current settings in `runMCMC.jl`.
+The fastest way to fit models illustrated in the article is to source the shell scripts `runjobs_Ricker.sh` and `runjobs_pinkSalmon.sh`, which call `runMCMC.jl`. Alternatively, `runMCMC.jl` can be run interactively in Julia (in which case, the user would manually assign the global variables normally passed by `ARGS`). Results in the article are based on longer MCMC runs than the current settings in `runMCMC.jl`.
 
 Following MCMC, run 
 ```bash

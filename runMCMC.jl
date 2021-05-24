@@ -187,7 +187,7 @@ end
 timestartburn = Dates.now()
 sims, accptr = mcmc!(model, Int(floor(n_burn/10)),
     updatevars, monitor, logfilename, 10, 50000)
-etr(timestartburn, n_keep, n_thin, logfilename)
+etr(timestartburn, n_iter_timed=n_burn, n_keep=n_keep, thin=n_thin, outfilename=logfilename)
 
 report_file = open(logfilename, "a+")
 if model.γ_type == :global
