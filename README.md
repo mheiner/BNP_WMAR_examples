@@ -18,7 +18,7 @@ The data folder contains the pink salmon data set (in the public domain, see <ht
 
 ## Models
 
-The fastest way to fit models illustrated in the article is to source the shell scripts `runjobs_Ricker.sh` and `runjobs_pinkSalmon.sh`, which call `runMCMC.jl`. Alternatively, `runMCMC.jl` can be run interactively in Julia (in which case, the user would manually assign the global variables normally passed by `ARGS`). Results in the article are based on longer MCMC runs than the current settings in `runMCMC.jl`.
+The fastest way to fit models illustrated in the article is to source the shell scripts `runjobs_Ricker.sh` and `runjobs_pinkSalmon.sh`, which call `runMCMC.jl`. The shell scripts also require creation of a folder named `logs`. Alternatively, `runMCMC.jl` can be run interactively in Julia (in which case, the user would manually assign the global variables normally passed by `ARGS`). Results in the article are based on longer MCMC runs than the current settings in `runMCMC.jl`.
 
 Following MCMC, run 
 ```bash
